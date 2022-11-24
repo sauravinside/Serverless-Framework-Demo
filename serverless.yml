@@ -13,13 +13,13 @@
 
 service: serverless-cci-example
 # app and org for use with dashboard.serverless.com
-app: serverless-framework-orb
-org: circleci
+app: serverless-cci-example
+org: sauravinside
 
 provider:
   name: aws
   runtime: nodejs12.x
-  region: us-west-2
+  region: ap-south-1
 
 functions:
   hello:
