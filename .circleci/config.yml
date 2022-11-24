@@ -15,7 +15,7 @@ jobs:
       - node/install-packages
       - run:
           name: echo me
-          command: echo "Helloo"
+          command: echo "Hello"
       - run:
           name: Run Tests
           command: npm run test
